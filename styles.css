@@ -1,0 +1,71 @@
+html, body {
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+}
+
+body{
+	font:normal 100% Verdana,Sans-serif;
+}
+
+.center-screen {
+	height:320px;
+	width:1170px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-top:-160px;
+	margin-left:-585px;
+}
+
+.link-bubble {
+	background-size:contain;
+	background-position:center;
+	background-repeat:no-repeat;
+	width:300px;
+	height:300px;
+	position:relative;
+	margin:0 auto;
+}
+
+.link-bubble.twitter {
+	background-image:url("images/nin.jpg");
+}
+
+.link-bubble.nincraft {
+	background-image:url("images/nincraft.jpg");
+}
+
+.link-bubble h1 {
+	position:absolute;
+	bottom:10px;
+	left:0;
+	right:0;
+	color:black;
+	text-decoration:none;
+	text-align:center;
+}
+
+footer {
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	text-align:center;
+	margin-top:20px;
+}
+
+@media(max-width: 992px) {
+	.center-screen {
+		height:auto;
+		width:auto;
+		position:initial;
+		margin-top:0px;
+		margin-left:0px;
+	}
+	
+	footer {
+		position:initial;
+	}
+}

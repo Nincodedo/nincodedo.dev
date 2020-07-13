@@ -3,20 +3,11 @@
 <head>
     <!-- Meta -->
     <title>Nincodedo</title>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
-          integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
-
-    <!-- Scripts -->
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-            crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
-            integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
-            crossorigin="anonymous"></script>
-
+    <link rel="stylesheet" href="bootstrap5/css/bootstrap.css">
 
     <script type="text/javascript">
         //<![CDATA[
@@ -101,28 +92,35 @@
 </head>
 
 <body>
-<div class='center-screen'>
-    <div class='container'>
-        <div class='row'>
+
+    <div class='container-lg'>
+        <div class='row align-items-center'>
             <div class='col-md-6'>
                 <a title='Check out my Twitter page!' href="https://twitter.com/nincodedo">
                     <div class='link-bubble twitter'>
-                        <h1>Twitter</h1>
+                        <h1><strong>Twitter</strong></h1>
                     </div>
                 </a>
             </div>
             <div class='col-md-6'>
-                <a title='Go to Nincraft!' href="https://nincraft.com">
-                    <div class="link-bubble nincraft">
-                        <h1>Nincraft</h1>
+                <a title='Go to Nincraft!' href="https://github.com/Nincodedo">
+                    <div class="link-bubble github">
+                        <h1><strong>Github</strong></h1>
                     </div>
                 </a>
             </div>
         </div>
     </div>
-</div>
-<footer>
-    <p>&copy Nincodedo 2020 and really I have nothing else to say...</p>
+
+<footer class="footer mt-auto py-3 bg-light">
+    <div class="container">
+        <span class="text-muted">&copy Nincodedo 2020 and really I have nothing else to say...</span>
+    </div>
 </footer>
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="bootstrap5/js/bootstrap.js"></script>
 </body>
 </html>

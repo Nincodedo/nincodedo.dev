@@ -9,14 +9,8 @@ body{
 	font:normal 100% Verdana,Sans-serif;
 }
 
-.center-screen {
-	height:320px;
-	width:1170px;
-	position:absolute;
-	top:50%;
-	left:50%;
-	margin-top:-160px;
-	margin-left:-585px;
+.container-lg, .row {
+	height: 100%;
 }
 
 .link-bubble {
@@ -30,19 +24,20 @@ body{
 }
 
 .link-bubble.twitter {
-	background-image:url("../images/nin.jpg");
+	background-image:url("../images/twitter.png");
 }
 
-.link-bubble.nincraft {
-	background-image:url("../images/nincraft.jpg");
+.link-bubble.github {
+	background-image:url("../images/github.png");
 }
 
 .link-bubble h1 {
+	-webkit-text-stroke: 2px black;
 	position:absolute;
-	bottom:10px;
+	bottom:-30px;
 	left:0;
 	right:0;
-	color:black;
+	color:white;
 	text-decoration:none;
 	text-align:center;
 }

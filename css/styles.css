@@ -30,11 +30,11 @@ body{
 }
 
 .link-bubble.twitter {
-	background-image:url("images/nin.jpg");
+	background-image:url("../images/nin.jpg");
 }
 
 .link-bubble.nincraft {
-	background-image:url("images/nincraft.jpg");
+	background-image:url("../images/nincraft.jpg");
 }
 
 .link-bubble h1 {

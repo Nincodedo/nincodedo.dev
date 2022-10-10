@@ -1,4 +1,4 @@
-nincodedo.com
+nincodedo.dev
 =============
 
-The alright-not-that-great nincodedo.com repo
+The alright-not-that-great nincodedo.dev repo
